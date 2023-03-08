@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab 17.1 - Carousel Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header container">
+      <nav class="navbar navbar-expand-md bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Carousel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled text-white-50">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner d-flex">
+        <div class="carousel-item active bg-im1 flex-fill position-relative">
+          <div class="position">
+            <h1>Example headline</h1>
+            <p>
+              Some representative placeholder content for the first line of the
+              carousel
+            </p>
+            <div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                role="button"
+                data-bs-toggle="button"
+                >Toggle link</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-im2 flex-fill">
+          <div class="position">
+            <h1>Example headline</h1>
+            <p>
+              Some representative placeholder content for the first line of the
+              carousel
+            </p>
+            <div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                role="button"
+                data-bs-toggle="button"
+                >Toggle link</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-im3 flex-fill">
+          <div class="position">
+            <h1>Example headline</h1>
+            <p>
+              Some representative placeholder content for the first line of the
+              carousel
+            </p>
+            <div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                role="button"
+                data-bs-toggle="button"
+                >Toggle link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#my-carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#my-carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="space"></div>
+    <footer>
+      <div>
+        <div class="d-flex flex-row mb-3">
+          <div class="p-2">
+            &copy; 2017 - 2021 Company, Inc
+            <span><a href="#">- Privacy</a></span>
+            <span><a href="#">- Terms</a></span>
+          </div>
+          <div class="p-2"><a href="#header">Back to top</a></div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

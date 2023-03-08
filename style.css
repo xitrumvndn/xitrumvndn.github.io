@@ -1,0 +1,46 @@
+.bg-im1 {
+  background-color: black;
+  background-size: auto;
+  background-image: url(./Images/blue-starry-night-sky-moon.jpg);
+}
+.bg-im2 {
+  background-color: black;
+  background-size: auto;
+  background-image: url(./Images/starry-transparent-night-sky-moon.jpg);
+}
+.bg-im3 {
+  background-color: black;
+  background-size: auto;
+  background-image: url(./Images/house-bright-night-sky-moon.jpg);
+}
+#my-carousel {
+  height: 500px;
+}
+.carousel-inner {
+  height: 100%;
+}
+.position {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+}
+
+.space {
+  /* border: 1px solid black;
+  background-color: black; */
+  width: 100%;
+  height: 280px;
+}
+
+footer {
+  height: 50px;
+}
+.d-flex {
+  /* position: absolute; */
+  /* bottom: 10px;*/
+  justify-content: space-between;
+}
+.p-2 {
+  margin: 0 10px 0 10px;
+}
