@@ -1,16 +1,16 @@
 .bg-im1 {
   background-color: black;
-  background-size: auto;
+  background-size: cover;
   background-image: url(./Images/blue-starry-night-sky-moon.jpg);
 }
 .bg-im2 {
   background-color: black;
-  background-size: auto;
+  background-size: cover;
   background-image: url(./Images/starry-transparent-night-sky-moon.jpg);
 }
 .bg-im3 {
   background-color: black;
-  background-size: auto;
+  background-size: cover;
   background-image: url(./Images/house-bright-night-sky-moon.jpg);
 }
 #my-carousel {
